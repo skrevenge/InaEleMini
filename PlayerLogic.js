@@ -2,6 +2,7 @@ const PlayerLogic = (function() {
     return class PlayerLogic {
         constructor() {
             this.players = new Map();
+            this.stats = new PlayerStats();
             this.statsOrder = ['TP', 'FP', 'shoot', 'strength', 'dribble', 'keeper', 'speed'];
             this.initializePlayers();
         }
