@@ -1,4 +1,4 @@
-const PlayerStatsData = {
+window.PlayerStatsData = {
     'Endou Mamoru': {
         name: 'Mark Evans',
         undubName: 'Endou Mamoru',
@@ -407,7 +407,11 @@ const PlayerStatsData = {
 
 class PlayerStats {
     constructor() {
-        this.players = PlayerStatsData;
+        if (!window.PlayerStatsData) {
+            console.error('PlayerStatsData not loaded');
+            return;
+        }
+        this.players = window.PlayerStatsData;
     }
 
     getPlayer(name) {
