@@ -405,4 +405,18 @@ const PlayerStatsData = {
     // Add other players here...
 };
 
-export default PlayerStatsData;
+class PlayerStats {
+    constructor() {
+        this.players = PlayerStatsData;
+    }
+
+    getPlayer(name) {
+        return this.players[name];
+    }
+
+    getAllPlayers() {
+        return this.players;
+    }
+}
+
+window.PlayerStats = PlayerStats;
