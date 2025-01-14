@@ -29,8 +29,8 @@ const PlayerStatsData = {
             RankUR: [18, 15, 10, 20, 8, 20, 12],
             RankLeg: [20, 18, 12, 20, 10, 20, 15]
         }
-    }
-        this.addPlayer(new Player({
+    },
+        'Kazemaru Ichirouta': {
             name: 'Nathan Swift',
             undubName: 'Kazemaru Ichirouta',
             TP: 160,
@@ -60,8 +60,8 @@ const PlayerStatsData = {
                 RankUR: [18, 15, 12, 8, 20, 5, 20],
                 RankLeg: [20, 18, 15, 10, 20, 5, 20]
             }
-        }
-        this.addPlayer(new Player({
+        },
+        'Kabeyama': {
             name: 'Jack Wallside',
             undubName: 'Kabeyama Heigoro',
             TP: 170,
@@ -91,8 +91,8 @@ const PlayerStatsData = {
                 RankUR: [18, 15, 8, 20, 8, 12, 8],
                 RankLeg: [20, 18, 10, 20, 10, 15, 10]
             }
-        }
-        this.addPlayer(new Player({
+        },
+        'Gouenji': {
             name: 'Axel Blaze',
             undubName: 'Gouenji Shuuya',
             TP: 170,
@@ -122,8 +122,8 @@ const PlayerStatsData = {
                 RankUR: [18, 15, 20, 12, 20, 5, 18],
                 RankLeg: [20, 18, 20, 15, 20, 5, 20]
             }
-        }
-        this.addPlayer(new Player({
+        },
+        'Kurimatsu': {
             name: 'Tod Ironside',
             undubName: 'Kurimatsu Teppei',
             TP: 150,
@@ -153,8 +153,8 @@ const PlayerStatsData = {
                 RankUR: [15, 12, 12, 8, 20, 5, 20],
                 RankLeg: [18, 15, 15, 10, 20, 5, 20]
             }
-        }
-        this.addPlayer(new Player({
+        },
+        'Someoka': {
             name: 'Kevin Dragonfly',
             undubName: 'Someoka Ryuugo',
             TP: 165,
@@ -184,8 +184,8 @@ const PlayerStatsData = {
                 RankUR: [18, 15, 20, 20, 15, 5, 15],
                 RankLeg: [20, 18, 20, 20, 18, 5, 18]
             }
-        }
-        this.addPlayer(new Player({
+        },
+        'Kidou': {
             name: 'Jude Sharp',
             undubName: 'Kidou Yuuto',
             TP: 175,
@@ -215,8 +215,8 @@ const PlayerStatsData = {
                 RankUR: [18, 15, 20, 12, 20, 5, 18],
                 RankLeg: [20, 18, 20, 15, 20, 5, 20]
             }
-        }
-        this.addPlayer(new Player({
+        },
+        'Sakuma': {
             name: 'David Samford',
             undubName: 'Sakuma Jirou',
             TP: 165,
@@ -246,8 +246,8 @@ const PlayerStatsData = {
                 RankUR: [18, 15, 20, 12, 18, 5, 20],
                 RankLeg: [20, 18, 20, 15, 20, 5, 20]
             }
-        }
-        this.addPlayer(new Player({
+        },
+        'Genda': {
             name: 'Joe King',
             undubName: 'Genda Koujirou',
             TP: 175,
@@ -277,8 +277,8 @@ const PlayerStatsData = {
                 RankUR: [18, 15, 8, 20, 8, 20, 15],
                 RankLeg: [20, 18, 10, 20, 10, 20, 18]
             }
-        }
-        this.addPlayer(new Player({
+        },
+        'Gojou': {
             name: 'Sam Kincaid',
             undubName: 'Gojou Masaru',
             TP: 160,
@@ -308,8 +308,8 @@ const PlayerStatsData = {
                 RankUR: [15, 12, 8, 20, 12, 8, 8],
                 RankLeg: [18, 15, 10, 20, 15, 10, 10]
             }
-        }
-        this.addPlayer(new Player({
+        },
+        'Jimon': {
             name: 'Jimmy Sixes',
             undubName: 'Jimon Daiki',
             TP: 155,
@@ -339,8 +339,8 @@ const PlayerStatsData = {
                 RankUR: [15, 12, 8, 20, 12, 8, 8],
                 RankLeg: [18, 15, 10, 20, 15, 10, 10]
             }
-        }
-        this.addPlayer(new Player({
+        },
+        'Doumen': {
             name: 'Bobby Shearer',
             undubName: 'Doumen Suichirou',
             TP: 165,
@@ -370,8 +370,8 @@ const PlayerStatsData = {
                 RankUR: [18, 15, 20, 12, 20, 5, 18],
                 RankLeg: [20, 18, 20, 15, 20, 5, 20]
             }
-        }
-        this.addPlayer(new Player({
+        },
+        'Placeholder': {
             name: 'Player Name',
             undubName: 'Japanese Name',
             TP: 150,
