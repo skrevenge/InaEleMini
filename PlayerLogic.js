@@ -1,4 +1,4 @@
-window.PlayerLogic = class PlayerLogic {
+window.PlayerLogic = class {
     constructor() {
         if (!window.PlayerStatsData) {
             console.error('PlayerStatsData not loaded');
@@ -86,6 +86,6 @@ window.PlayerLogic = class PlayerLogic {
         getAllPlayers() {
             return Array.from(this.players.values());
         }
-    }();
+    }
 
 window.PlayerLogic = PlayerLogic;
