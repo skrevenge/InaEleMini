@@ -86,7 +86,6 @@ window.PlayerLogic = class PlayerLogic {
         getAllPlayers() {
             return Array.from(this.players.values());
         }
-    }
-})();
+    }();
 
 window.PlayerLogic = PlayerLogic;
