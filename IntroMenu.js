@@ -1,4 +1,4 @@
-class IntroScene extends BaseScene {
+export class IntroScene extends BaseScene {
     constructor() {
         super({
             key: 'IntroScene'
