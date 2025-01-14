@@ -85,3 +85,5 @@ const PlayerLogic = (function() {
         }
     }
 })();
+
+window.PlayerLogic = PlayerLogic;
