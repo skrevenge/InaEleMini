@@ -1,15 +1,14 @@
-window.PlayerLogic = (function() {
-    return class PlayerLogic {
-        constructor() {
-            if (!window.PlayerStatsData) {
-                console.error('PlayerStatsData not loaded');
-                return;
-            }
-            this.players = new Map();
-            this.stats = new window.PlayerStats();
-            this.statsOrder = ['TP', 'FP', 'shoot', 'strength', 'dribble', 'keeper', 'speed'];
-            this.initializePlayers();
+window.PlayerLogic = class PlayerLogic {
+    constructor() {
+        if (!window.PlayerStatsData) {
+            console.error('PlayerStatsData not loaded');
+            return;
         }
+        this.players = new Map();
+        this.stats = new window.PlayerStats();
+        this.statsOrder = ['TP', 'FP', 'shoot', 'strength', 'dribble', 'keeper', 'speed'];
+        this.initializePlayers();
+    }
 
         initializePlayers() {
             if (typeof PlayerStatsData !== 'undefined') {
