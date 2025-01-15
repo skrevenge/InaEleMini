@@ -8,16 +8,7 @@ export class IntroScene extends BaseScene {
         this.shiftedGameplayY = 750; // Store shifted Y position for English
         this.hasMovedDown = false; // Flag to track if elements have been moved down
     }
-    preload() {
-        super.preload();
-        this.load.image('background', 'https://play.rosebud.ai/assets/art.png?qQpN');
-        this.load.spritesheet('introIcons',
-            'https://play.rosebud.ai/assets/IntroIcons242x188.png?JeT8', {
-                frameWidth: 242,
-                frameHeight: 188
-            }
-        );
-    }
+
     create() {
         // Call parent class create method
         if (super.create) {
