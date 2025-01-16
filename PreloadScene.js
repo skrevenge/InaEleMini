@@ -47,6 +47,7 @@ class PreloadScene extends BaseScene {
         this.load.image('poster', 'https://play.rosebud.ai/assets/Poster.png?Wbzx');
         this.load.image('logo', 'https://play.rosebud.ai/assets/InaMiniLogo.png?huyp');
         this.load.image('commonBar', 'https://play.rosebud.ai/assets/CommonBar.png?tfw5');
+        this.load.image('SaveDel', 'https://play.rosebud.ai/assets/SaveDel.png?grO9');
         this.load.audio('menuMusic', 'https://play.rosebud.ai/assets/IEOSTMenu.mp3?IhVv');
         this.load.audio('clickSound', 'https://play.rosebud.ai/assets/clickSFX.mp3?65xz');
         // Load player scripts
