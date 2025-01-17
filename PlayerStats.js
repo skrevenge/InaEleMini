@@ -1,5 +1,5 @@
 window.PlayerStatsData = {
-    'Endou Mamoru': {
+    'Endou': {
         name: 'Mark Evans',
         undubName: 'Endou Mamoru',
         TP: 180,
@@ -30,7 +30,7 @@ window.PlayerStatsData = {
             RankLeg: [20, 18, 12, 20, 10, 20, 15]
         }
     },
-        'Kazemaru Ichirouta': {
+        'Kazemaru': {
             name: 'Nathan Swift',
             undubName: 'Kazemaru Ichirouta',
             TP: 160,
