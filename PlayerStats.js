@@ -10,7 +10,7 @@ window.PlayerStatsData = {
         dribble: 54,
         keeper: 89,
         speed: 60,
-        portrait: '',
+        portrait: '0',
         LvUpStatBoost: {
             boost1: [2, 1, 1, 2, 0, 4, 0],
             boost2: [1, 2, 0, 3, 1, 3, 1],
@@ -41,7 +41,7 @@ window.PlayerStatsData = {
             dribble: 79,
             keeper: 45,
             speed: 87,
-            portrait: '',
+            portrait: '1',
             LvUpStatBoost: {
                 boost1: [2, 2, 1, 0, 3, 0, 4],
                 boost2: [1, 2, 0, 1, 4, 0, 3],
@@ -72,7 +72,7 @@ window.PlayerStatsData = {
             dribble: 51,
             keeper: 55,
             speed: 45,
-            portrait: '',
+            portrait: '3',
             LvUpStatBoost: {
                 boost1: [2, 2, 0, 4, 0, 1, 0],
                 boost2: [1, 2, 1, 3, 1, 0, 1],
@@ -103,7 +103,7 @@ window.PlayerStatsData = {
             dribble: 76,
             keeper: 45,
             speed: 71,
-            portrait: '',
+            portrait: '2',
             LvUpStatBoost: {
                 boost1: [2, 1, 4, 1, 2, 0, 1],
                 boost2: [1, 2, 3, 2, 1, 0, 2],
@@ -134,7 +134,7 @@ window.PlayerStatsData = {
             dribble: 72,
             keeper: 45,
             speed: 82,
-            portrait: '',
+            portrait: '4',
             LvUpStatBoost: {
                 boost1: [1, 1, 0, 0, 3, 0, 4],
                 boost2: [2, 1, 1, 1, 2, 0, 3],
@@ -165,7 +165,7 @@ window.PlayerStatsData = {
             dribble: 68,
             keeper: 45,
             speed: 66,
-            portrait: '',
+            portrait: '5',
             LvUpStatBoost: {
                 boost1: [2, 1, 4, 2, 1, 0, 1],
                 boost2: [1, 2, 3, 3, 1, 0, 1],
@@ -196,7 +196,7 @@ window.PlayerStatsData = {
             dribble: 89,
             keeper: 45,
             speed: 76,
-            portrait: '',
+            portrait: '8',
             LvUpStatBoost: {
                 boost1: [2, 2, 1, 0, 4, 0, 2],
                 boost2: [1, 2, 2, 1, 3, 0, 2],
@@ -227,7 +227,7 @@ window.PlayerStatsData = {
             dribble: 76,
             keeper: 45,
             speed: 78,
-            portrait: '',
+            portrait: '7',
             LvUpStatBoost: {
                 boost1: [2, 1, 3, 0, 2, 0, 3],
                 boost2: [1, 2, 4, 1, 1, 0, 2],
@@ -258,7 +258,7 @@ window.PlayerStatsData = {
             dribble: 52,
             keeper: 87,
             speed: 65,
-            portrait: '',
+            portrait: '6',
             LvUpStatBoost: {
                 boost1: [2, 1, 0, 2, 0, 4, 1],
                 boost2: [1, 2, 1, 2, 1, 3, 1],
@@ -289,7 +289,7 @@ window.PlayerStatsData = {
             dribble: 55,
             keeper: 52,
             speed: 48,
-            portrait: '',
+            portrait: '11',
             LvUpStatBoost: {
                 boost1: [2, 1, 0, 4, 1, 0, 1],
                 boost2: [1, 2, 1, 3, 1, 1, 0],
@@ -320,7 +320,7 @@ window.PlayerStatsData = {
             dribble: 52,
             keeper: 50,
             speed: 45,
-            portrait: '',
+            portrait: '9',
             LvUpStatBoost: {
                 boost1: [1, 2, 0, 4, 1, 0, 1],
                 boost2: [2, 1, 1, 3, 1, 1, 0],
@@ -340,9 +340,9 @@ window.PlayerStatsData = {
                 RankLeg: [18, 15, 10, 20, 15, 10, 10]
             }
         },
-        'Doumen': {
-            name: 'Bobby Shearer',
-            undubName: 'Doumen Suichirou',
+        'Banjou': {
+            name: 'Ben Simmons',
+            undubName: 'Banjou Kazumichi',
             TP: 165,
             FP: 140,
             element: 'Wind',
@@ -351,7 +351,7 @@ window.PlayerStatsData = {
             dribble: 84,
             keeper: 45,
             speed: 72,
-            portrait: '',
+            portrait: '10',
             LvUpStatBoost: {
                 boost1: [2, 1, 2, 0, 4, 0, 2],
                 boost2: [1, 2, 2, 1, 3, 0, 2],
